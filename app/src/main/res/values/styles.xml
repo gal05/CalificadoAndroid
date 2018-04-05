@@ -12,4 +12,9 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="Barrapersonalizada" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">#FF9800</item>
+        <item name="colorPrimaryDark">#F57C00</item>
+    </style>
+
 </resources>
