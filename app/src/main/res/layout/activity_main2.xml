@@ -37,17 +37,19 @@
                 android:layout_weight="1"
                 android:orientation="horizontal">
 
-                <SearchView
+                <TextView
+                    android:id="@+id/textEntrada"
                     android:layout_width="280dp"
                     android:layout_height="40dp"
                     android:layout_weight="1" />
 
                 <Button
-                    android:id="@+id/button"
+                    android:id="@+id/buscar2"
                     android:layout_width="wrap_content"
                     android:layout_height="40dp"
                     android:layout_weight="1"
-                    android:text="Button" />
+                    android:onClick="onClickAceptar"
+                    android:text="BUSCAR" />
             </LinearLayout>
 
             <TextView
