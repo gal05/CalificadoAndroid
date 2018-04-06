@@ -1,4 +1,4 @@
-package pe.edu.guerra.calificadoandroid.adapters;
+package pe.edu.guerra.calificadoandroid.repositories;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,6 +30,7 @@ public class ElementoRepository {
 
     }
 
-
-
+    public static List<Elemento> getElementos() {
+        return elementos;
+    }
 }
